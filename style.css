@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.rooot{
+    width: 100%;
+    background-color: transparent;
+}
+
+.row1{
+    font-size: 12px;
+    
+}
+.row2{
+    font-size: 14px;
+    height: 76px;
+}
+.realme-logo{
+    width: 88px;
+    height: 28px;
+}
+a{
+    text-decoration: none;
+}
+.navbar-nav>a:hover{
+    color: rgb(236, 204, 27);
+}
+.single-container{
+    height: 300px;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+.first-images-row{
+    width: 80%;
+    height: 70%;
+}
+.third-images-row{
+    width: 70%;
+    height: 90%;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,10rem);
+    justify-content: center;
+    gap: 10px;
+}
+
+.grid-container-2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,15rem);
+    justify-content: center;
+    gap: 20px;
+}
+
+.grid-container-3{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,40rem));
+    justify-content: center;
+    gap: 10px;
+}
+
+.discover-images-row{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.left-part-image{
+ 
+    border-radius: 30px;
+}
+
+.right-part-image{
+   
+    border-radius: 30px;
+}
+
+.grid-container-4{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(15rem,20rem));
+    justify-content: center;
+    gap: 10px;
+}
+
+.list-block{
+    width: 193px;
+   
+}
+li>a{
+    font-size: 12px;
+    
+}
+i{
+    font-size: 30px;
+}
+.footer-contact{
+   
+    width: 170px;
+    height: 42px;
+    border-radius: 25px;
+    border-radius: 1px solid black;
+}
+.bottom-text{
+    font-size: 14px;
+}
+
+.recomended-card-left{
+    width: 50%;
+}
+.recomended-card-right{
+    width: 50%;
+}
+
+li>a{
+    color: black;
+}
